@@ -5,6 +5,7 @@ author: shell
 api-version: 1.14
 website: http://mc.licrafter.com
 description: custom player chat name
+softdepend: [Vault]
 commands:
   yn:
     description: your name commands
