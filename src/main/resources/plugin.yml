@@ -1,0 +1,19 @@
+name: YourNamePlugin
+main: com.licrafter.mc.yourname.YourNamePlugin
+version: 1.0.0
+author: shell
+api-version: 1.14
+website: http://mc.licrafter.com
+description: custom player chat name
+commands:
+  yn:
+    description: your name commands
+    usage: /yn
+permissions:
+  yourname.*:
+    description: Grants access to all yourname commands
+    default: op
+    children:
+      yourname.self: true
+      yourname.other: true
+      yourname.delete.other: true

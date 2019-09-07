@@ -1,0 +1,18 @@
+format: '&f[%1$s&f]&7>>'
+#自定义名字最大长度
+maxlength: 10
+#鼠标悬停在自定义名字上面是否要显示出原始
+#开启该设置可能会对其他更高优先级监听聊天事件的插件产生影响!!
+hover: true
+#禁止玩家输入的字词
+forbiddenWords:
+- '艹'
+- '曹尼玛'
+#禁止使用的色值
+forbiddenColor:
+- '&c'
+- '&4'
+#是否开启自定义名字付费
+economy:
+  enable: true
+  money: 10

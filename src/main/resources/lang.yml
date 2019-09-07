@@ -1,0 +1,26 @@
+#文案里的%x$s请勿删减或者修改
+basic:
+  prefix: '&a[&eYourName&a]'
+  onlyplayer.exc: '&4只有玩家才可以执行该命令'
+  noperms.exc: '&4你没有权限执行该指令'
+  lackmoney: '&7没有足够的金钱,需要:&e%1$s'
+  transfailed: '&4交易失败请重试'
+  forbidden.word: '&4包含禁用词，请换一个名字'
+  forbidden.color: '&4该颜色符号: &e%1$s&e被禁止使用'
+  name.takeup: '&7该名字已经被占用，请换一个名字'
+  name.toolong: '&7该名字太长了，最长只能&e%1$s&7个字符'
+set.success: '&7成功为玩家&e%1$s&7设置了昵称&e%2$s'
+set.drawsuccess: ' &7消耗了&e%1$s&7金币'
+query:
+  noplayer: '&7没有查询到该玩家的记录'
+  success: '&a玩家真实ID: &e%1$s &a自定义昵称: &e%2$s'
+delete:
+  success: '&7成功清空了玩家 &e%1$s 的自定义昵称'
+cmd:
+  help: '&a/yn &7-帮助指令'
+  set.self: '&a/yn [自定义昵称] &7-设置自定义名字(支持颜色代码)'
+  set.other: '&a/yn [player] [自定义名字] &7-为其他玩家设置之定义名字(支持颜色代码)'
+  query.origin: '&a/yn query origin &e[自定义昵称] &7-查询该自定义昵称的真实昵称'
+  query.custom: '&a/yn query custom &e[真实昵称] &7-查询该真实昵称的自定义昵称'
+  delete.self: '&a/yn delete -&7删除自己的自定义名字'
+  delete.other: '&a/yn delete [player] -&7删除其他玩家的自定义名字'
